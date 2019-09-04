@@ -7,6 +7,8 @@ int funcion(int x){
 		if(x==arreglo[mid]){
 			return (mid);
 		} 
+if(x>arreglo[mid] && x<arreglo[mid+1])
+		{ return (-1);}
 		if(x!=arreglo[mid] &&(mid==low || mid==high))	{
 		return (-1);
 		}
