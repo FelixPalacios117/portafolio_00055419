@@ -1,0 +1,35 @@
+"Algoritmo: obtener el elemento dos de la pila, dejando la pila sin sus dos elementos de arriba"
+//algoritmo 1
+i;
+s = initialize
+if(empty(s)){
+return (-1);
+}
+else{
+i=pop(s);
+if(!empty(s)){
+i=pop(s);
+}
+else{
+return (-1);
+}
+}
+
+//algoritmo 2
+
+i;
+s = initialize
+if(empty(s)){
+return (-1);
+}
+else{
+i=pop(s);
+if(!empty(s)){
+y=pop(s);
+push(s,i);
+push(s,y);
+}
+else{
+return (-1);
+}
+}
