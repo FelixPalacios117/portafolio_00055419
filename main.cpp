@@ -1,29 +1,13 @@
-#include <iostream> //ejercicio 8
+#include <iostream> 
 using namespace std; 
-int valorcomparado=1;
-void valores(int x)
-{
-    if(valorcomparado==x){
-        if(x==1){
-            cout<<x;
-        }
-        else{
-        cout<<valorcomparado<<endl;
-        valorcomparado--;
-        valores(x-1); 
-        } 
-    }
-    else{ 
-         cout<<valorcomparado<<endl; 
-        valorcomparado++;
-        valores(x); 
-    }
-}
 int main() {
-    int valor;
-    cout<<"Ingresa un valor : ";
-    cin>>valor;
-    valores(valor);
+    int arreglo[10],suma=0;
+    double promedio=0;
+    for(int i=0;i<10;i++){
+        cout<<"Ingrese el valor : ";
+        cin>>arreglo[i];
+        suma+=arreglo[i];
+    }
+    cout<<"El promedio es : "<<(promedio =(suma/10));
     return 0;
-}
-
+} 
