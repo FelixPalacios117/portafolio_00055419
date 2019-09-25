@@ -1,0 +1,41 @@
+// A-B/(C*D$E)
+
+Convertir el exponente y multiplicacion
+A-B/(CDE$*)
+
+Convertir la division	
+-CDE$*AB/
+
+convertir la resta
+CDE$*AB/-
+
+notacion postfija(RESPUESTA :)
+
+CDE$*AB/-
+
+
+// ((A+B)*C-(D-E))$(F+G)
+
+Convertir el primer parentesis
+((AB+)*C-(D-E))$(F+G)
+
+Convertir el segundo parentesis
+((AB+)*C-(DE-))$(F+G)
+
+Convertir la multiplicacion y resta
+((AB+)(DE-)C*-)$(F+G)
+
+Convertir el parentesis restante
+
+((AB+)(DE-)C*-)$(FG+)
+
+Convertir el exponente
+
+((AB+)(DE-)C*-)(FG+$)
+
+
+El resultado:
+AB+DE-C*-FG+$
+
+
+
